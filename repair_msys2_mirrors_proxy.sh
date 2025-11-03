@@ -267,12 +267,12 @@ sed -i 's|https://|http://|g' ${MIRROR_DIR}/mirrorlist.*
 echo "[*] Installing pacman-contrib if needed..."
 pacman -Sy --needed --noconfirm pacman-contrib || true
 
-echo "[*] Ranking mirrors..."
-for f in ${MIRROR_DIR}/mirrorlist.*; do
-  echo "→ Ranking $f"
-  rankmirrors -n $RANK_COUNT "$f" > "${f}.tmp" 2>/dev/null || cp "$f" "${f}.tmp"
-  mv "${f}.tmp" "$f"
-done
+# echo "[*] Ranking mirrors..."
+# for f in ${MIRROR_DIR}/mirrorlist.*; do
+#   echo "→ Ranking $f"
+#   rankmirrors -n $RANK_COUNT "$f" > "${f}.tmp" 2>/dev/null || cp "$f" "${f}.tmp"
+#   mv "${f}.tmp" "$f"
+# done
 
 echo "[*] Configuring proxy + SSL disable for all tools..."
 
