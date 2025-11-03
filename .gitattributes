@@ -1,3 +1,17 @@
 version https://git-lfs.github.com/spec/v1
 oid sha256:49b096a1aee795e02284e45323976ef50759964a163813d323ad4437646f7202
 size 896
+pacman.d.zip filter=lfs diff=lfs merge=lfs -text
+test.txt filter=lfs diff=lfs merge=lfs -text
+qemu-commands.txt filter=lfs diff=lfs merge=lfs -text
+text2.txt filter=lfs diff=lfs merge=lfs -text
+codex-cli-x86_64-pc-windows-gnu.zip filter=lfs diff=lfs merge=lfs -text
+dist filter=lfs diff=lfs merge=lfs -text
+codex.exe filter=lfs diff=lfs merge=lfs -text
+mirror-list filter=lfs diff=lfs merge=lfs -text
+msys64.7z.001 filter=lfs diff=lfs merge=lfs -text
+pacman.conf filter=lfs diff=lfs merge=lfs -text
+repair_msys2_mirrors_proxy.sh filter=lfs diff=lfs merge=lfs -text
+text.txt filter=lfs diff=lfs merge=lfs -text
+codex filter=lfs diff=lfs merge=lfs -text
+codex-cli-windows-gitbash.zip filter=lfs diff=lfs merge=lfs -text
