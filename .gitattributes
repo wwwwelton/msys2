@@ -16,3 +16,4 @@ text.txt filter=lfs diff=lfs merge=lfs -text
 codex filter=lfs diff=lfs merge=lfs -text
 codex-cli-windows-gitbash.zip filter=lfs diff=lfs merge=lfs -text
 msys64.7z.002 filter=lfs diff=lfs merge=lfs -text
+msys64.7z.003 filter=lfs diff=lfs merge=lfs -text
