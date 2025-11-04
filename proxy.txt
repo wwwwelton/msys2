@@ -1,0 +1,11 @@
+XferCommand = /usr/bin/curl --proxy http://proxy.example.com:8080 -s -L -C - -f -o %o %u
+
+XferCommand = /usr/bin/curl --proxy http://user:password@proxy.example.com:8080 -s -L -C - -f -o %o %u
+
+nano /etc/pacman.conf
+
+pacman -Syy
+
+rm -f /var/lib/pacman/sync/*.db
+
+pacman -Syy
